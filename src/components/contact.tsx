@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="mx-auto">
         <div className="flex flex-col justify-center items-center gap-5 bg-[#131317] py-16">
           <h1 className="text-4xl font-semibold">{`Let's Connect`}</h1>
-          <div className="text-white/30 flex gap-2">
+          <div className="text-white/30 flex items-center justify-center gap-2">
             <a href="https://www.linkedin.com/" target="_blank" className="p-1">
               <i className="devicon-linkedin-plain text-2xl hover:text-white cursor-pointer transition-all"></i>
             </a>
