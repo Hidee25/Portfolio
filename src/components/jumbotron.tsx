@@ -5,8 +5,8 @@ export default function Jumbotron() {
     <>
       <div className="jumbotron">
         {/* bottom arrow */}
-        <div className="bottom-8 z-10 absolute w-full flex items-center justify-center p-1 cursor-pointer">
-          <LinkReactScroll to="contentAnchor" smooth={true} spy={true} offset={-80} duration={200} className="animate-bounce">
+        <div className="bottom-8 z-10 absolute w-full flex items-center justify-center p-1">
+          <LinkReactScroll to="contentAnchor" smooth={true} spy={true} offset={-80} duration={200} className="animate-bounce cursor-pointer">
             <span className="mx-auto text-white/50 left-1/2 -translate-x-1/2">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -42,7 +42,6 @@ export default function Jumbotron() {
             </div>
           </div>
         </div>
-        
         {/* gradient background */}
         <div className="gradient-container">
           <div className="g1"></div>
